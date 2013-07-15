@@ -1,5 +1,5 @@
 {
-  "name": "Mimosa-LESSCoffeeScriptHTML-BootstrapAngular",
+  "name": "mimosa-less-coffeescript-bootstrap-angular",
   "version": "0.0.1",
   "dependencies": {
     "consolidate": "~0.5.0",
