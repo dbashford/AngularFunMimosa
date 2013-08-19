@@ -1,5 +1,5 @@
 requirejs.config
-  urlArgs: "bust=" +  new Date().getTime()
+  urlArgs: "bust=" +  (new Date()).getTime()
   map:
     '*':
       'vendor/angularResource': 'vendor/angular-resource'
@@ -10,7 +10,7 @@ requirejs.config
     jquery:"vendor/jquery"
     ang:"vendor/angular"
   shim:
-    'vendor/angular':
+    'ang':
       deps: ['vendor/modernizr']
       exports: 'angular'
     'vendor/angular-resource': ['ang']
