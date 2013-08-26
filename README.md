@@ -1,7 +1,7 @@
 # Angular Fun - Mimosa
 *[Original By Cary Landholt](https://github.com/CaryLandholt/AngularFun)*
 
-*Translated from Grunt to [Mimosa](http://www.mimosajs.com)*
+*Translated from Grunt to [Mimosa](http://www.mimosa.io)*
 
 ## About
 * This is an attempt to play with the features of [AngularJS](http://angularjs.org/) and leverage the goodness of [RequireJS](http://requirejs.org/)
