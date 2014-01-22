@@ -14,7 +14,7 @@ exports.config = {
     'coffeescript',
     'copy',
     'html-templates'],
-  minify: {
+  minifyJS: {
     exclude:[/\.min\./, "javascripts/main.js"]
   }
 }
