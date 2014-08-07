@@ -6,7 +6,7 @@ define ['ang', 'services/services', 'services/message', 'vendor/angularResource'
 	services.factory 'twitter', ['$resource', 'message', ($resource, message) ->
 		tweets = result: {}
 
-		activity = $resource 'http://search.twitter.com/search.json',
+		activity = $resource 'https://api.twitter.com/1.1/search/tweets.json',
 			callback: 'JSON_CALLBACK',
 				get:
 					method: 'JSONP'

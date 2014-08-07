@@ -8,6 +8,8 @@
 * Uses controllers, services, directives, filters, and partials
 * Takes advantage of Mimosa's minimal configuration ([grunt config](https://github.com/CaryLandholt/AngularFun/blob/master/grunt.js) vs [mimosa config](https://github.com/dbashford/AngularFunMimosa/blob/master/mimosa-config.js)) and built in RequireJS functionality.
 
+Note: The twitter search portion of the demo app no longer functions after Twitter changed their API.
+
 ## Prerequisites
 * [node.js (at least v0.8.1)](http://nodejs.org/)
 * Mimosa
